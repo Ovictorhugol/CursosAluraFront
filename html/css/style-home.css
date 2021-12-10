@@ -1,0 +1,65 @@
+body {
+
+    font-family: "Avenir Roman";
+
+}
+
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("/avenir-roman.ttf")format("truetype");
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+#banner {
+
+    width: 100%;
+}
+
+.fundo {
+
+    background: url("/imagens/bg.jpg");
+    color: #F9f9f9;
+    padding: 30px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.fundo p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.beneficios {
+    background: #F9f9f9;
+    padding: 20px;
+}
+
+
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
+
+em strong {
+    color: red;
+}

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Roman", sans-serif;
+    background: url("bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    color: #f9f9f9;
+    border: 1px solid;
+    transition: .2 ease;
+
+}
+
+.btn:hover {
+    background: #f9f9f9;
+    color: black;
+    border: 1px solid;
+}
+
+img.logo {
+    max-width: 160px;
+}
+
+.hero-content {
+    margin-top: -21px;
+    padding-left: 80px;
+}
+
+.hero-content>p {
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+h1 {
+
+    font-size: 44px;
+    line-height: 53px;
+    color: #f9f9f9;
+    margin: 20px 0 30px 0;
+}
+
+.precos-container {
+    display: flex;
+
+}
+
+img {
+    max-width: 600px;
+
+}
+
+img.franquias {
+
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.preco span {
+    font-weight: 700;
+    color: #f9f9f9;
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.preco {
+    color: rgba(192, 192, 192, 0.8);
+    max-width: 100%;
+    width: 300px;
+}
+
+.preco p {
+    margin-bottom: 16px 0;
+}
+
+.preco p:first-child {
+    margin: 0;
+}
+
+.preco a {
+    margin-top: 12px;
+    display: block;
+    background-color: #0063e5;
+    border-radius: 4px;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 16.5px 14px;
+    transition: .2s ease;
+}
+
+.preco a:hover {
+    background-color: #0483ee;
+}
+
+.preco+.preco {
+    margin-left: 32px;
+}
+
+.preco:first-child {
+    display: grid;
+}
+
+.preco:first-child a {
+    align-self: end;
+}
